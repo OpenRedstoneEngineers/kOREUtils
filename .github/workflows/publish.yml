@@ -14,3 +14,5 @@ jobs:
 
       - name: Build and publish
         run: ./gradlew :versions:publishVersionsPublicationToGitHubPackagesRepository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
