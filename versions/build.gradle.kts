@@ -7,7 +7,7 @@ version = "latest"
 
 catalog {
     versionCatalog {
-        from(file("versions.toml"))
+        from(files("versions.toml"))
     }
 }
 
