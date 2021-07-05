@@ -1,2 +1,2 @@
 rootProject.name = "koreutils"
-include(":versions")
+include(":koreutils-versions")
