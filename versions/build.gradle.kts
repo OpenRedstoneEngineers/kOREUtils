@@ -46,3 +46,10 @@ publishing {
         }
     }
 }
+
+// temporary
+
+tasks.register("clean") {}
+tasks.register("build") {
+    dependsOn("generateCatalogAsToml")
+}
