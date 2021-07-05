@@ -3,9 +3,6 @@ plugins {
     `maven-publish`
 }
 
-group = "org.openredstone"
-version = "master-SNAPSHOT"
-
 catalog {
     versionCatalog {
         version("ktor", "1.6.1")
